@@ -7,7 +7,7 @@
             <h1>06-39626090</h1>
             <h3>24/7 SERVICE</h3>
             <div class="decoration-line d-lg-block d-none"></div>
-            <p>Taxi in omgeving Achterhoek, Bel of WhatsApp en maak een afspraak.</p>
+            <p>Scherpe tarieven voor uw taxi. Taxi in omgeving Achterhoek, Bel of WhatsApp en maak een afspraak. Scherpe tarieven voor uw taxi.</p>
             <button class="taxi-btn m-auto m-lg-0 mt-sm-5">
               <a href="tel:0639626090">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
@@ -20,7 +20,7 @@
           <b-col cols="12" lg="6">
             <div class="hero-images">
               <img class="greet-image1" src="../../uploads/pinnen-ja-graag.png" />
-              <img class="greet-image2" src="../../uploads/taxi-feko.png" />
+              <img class="greet-image2" src="../../uploads/taxi-feko.jpg" />
             </div>
           </b-col>
         </b-row>
@@ -71,7 +71,7 @@
       <b-row>
         <b-col class="info-holder col-lg-6 col-12">
           <h3>INFO</h3>
-          <div class="info-decoration-line"></div>
+          <div class="decoration-line"></div>
           <p>
             Taxi NL is het taxibedrijf in ‘s-Heerenberg en omgeving voor: luchthavenvervoer, stadtaxi’s, zakelijkvervoer.
             Taxi NL brengt u 24/7 snel, veilig en comfortabel naar uw bestemming tegen scherpe tarieven.
@@ -94,8 +94,8 @@
             </p>
           </b-col>
           <b-col cols="12" md="3" class="button-holder">
-            <a href="tel:0639626090">
-              <button class="btn--outline m-sm-auto">
+            <a class="m-auto m-lg-0" href="tel:0639626090">
+              <button class="btn--outline m-auto m-lg-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                   <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
                 </svg>
@@ -112,7 +112,9 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Gridsome starter bootstrap'
+    title: 'Taxi NL Feko - Scherpe tarieven voor uw taxi - 24/7 Bel 06-39626090',
+    description: "Taxi NL het taxibedrijf in omgeving 's-Heerenberg; luchthavenvervoer, stadtaxi's, zakelijkvervoer. Snel, veilig en comfortabel tegen scherpe tarieven 24/7.",
+    keywords: "Taxi, Luchthavenvervooer, Stadtaxi, Zakelijkvervoer, 24/7, Goedkoop, Nijmegen, 's-Heerenberg, Arnhem"
   }
 }
 </script>
@@ -224,6 +226,12 @@ a {
   color: white;
   background: var(--taxi-black);
   font-size: 2rem;
+
+  & .decoration-line {
+    width: 12rem;
+    border-top: .2rem solid white;
+    margin: 2rem 0;
+  }
 }
 
 .image-holder {

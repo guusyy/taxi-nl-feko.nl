@@ -1,8 +1,12 @@
 <template>
   <Layout>
-    <div class="d-flex">
-    <img class="" src="../assets/images/404.svg" />
-    </div>
+    <b-container>
+      <b-row>
+        <div class="d-flex image-container">
+          <img class="" src="../assets/images/404.svg" />
+        </div>
+      </b-row>
+    </b-container>
   </Layout>
 </template>
 
@@ -17,5 +21,9 @@ img {
   @media (max-width: 400px) {
     width: 100%;
   }
+}
+
+.image-container {
+  min-height: 80vh;
 }
 </style>
